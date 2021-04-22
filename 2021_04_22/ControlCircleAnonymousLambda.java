@@ -30,12 +30,7 @@ public class ControlCircle extends Application {
     // Create and register the handler
     btEnlarge.setOnAction
 	(
-		e -> 
-		{
-			{
-			circlePane.enlarge();
-			}
-		}
+		e -> circlePane.enlarge();
 	);
 
     BorderPane borderPane = new BorderPane();
